@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+@property --bg-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 75px 66px;
+  align-items: center;
+}
+
+.nav-logo {
+  color: white;
+  text-transform: uppercase;
+}
+
+.nav-list ul {
+  list-style: none;
+  display: flex;
+  gap: 53px;
+}
+
+.nav-item .nav-link {
+  text-decoration: none;
+  color: white;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.nav-item .nav-link.contact-btn {
+  border: 2px solid white;
+  padding: 6px;
+  border-radius: 105px;
+  padding: 9px 36px;
+}
+
+.home {
+  position: relative;
+}
+
+.start-page {
+  width: 100vw;
+  height: 67vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.start-page h1 {
+  color: white;
+  font-size: 20vw;
+  font-weight: 700;
+  text-align: center;
+  line-height: 0.9;
+  margin: 0;
+}
+
+.other-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 66px;
+}
+
+.other-text p {
+  color: white;
+  font-family: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.card-container {
+  display: flex;
+  gap: 33px;
+}
+
+.cards {
+  background-color: #e4e4e4;
+  max-width: 281px;
+  min-height: 480px;
+  position: absolute;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 1);
+}
+
+.cards:nth-child(1) {
+  transform: rotate(14deg);
+  left: 28%;
+  top: 30%;
+}
+
+.cards:nth-child(2) {
+  transform: rotate(-19deg);
+  right: 24.2%;
+  top: 4%;
+}
+
+.card-image {
+  padding: 120px;
+  background-size: cover;
+  background-color: #be5cff;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content .card-title {
+  text-transform: uppercase;
+}
+
+.since h1 {
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .cards {
+    position: relative;
+  }
+  .nav-link {
+    display: none;
+  }
+  .container {
+    padding: 30px;
+  }
+  .cards:nth-child(1) {
+    transform: rotate(0deg);
+    left: 0;
+  }
+  .cards:nth-child(2) {
+    transform: rotate(0deg);
+    right: 0;
+  }
+} /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+} /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+} /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+} /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

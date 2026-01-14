@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiper</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Main navigation">
+        <div class="navbar">
+          <div class="logo">
+            <a href="">Exchange</a>
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="/collections">Collections</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/lookbook">Lookbook</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/magazines">Magazines</a>
+            </li>
+          </ul>
+
+          <div class="shop">
+            <a href="">Shop</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="scaefy-swiper" class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide slide-item">
+          <div class="slide-image">
+            <img src="./Card-Gorsel.jpg" alt="" />
+          </div>
+          <div class="slide-content">
+            <h2>Berat</h2>
+          </div>
+        </div>
+        <div class="swiper-slide" data-background="./Card-Gorsel2.jpg">
+          <div class="slide-content">
+            <h2>Berat2</h2>
+          </div>
+        </div>
+        <div class="swiper-slide slide-item" data-background="./Card-Gorsel3">
+          <div class="slide-content">
+            <h2>Berat3</h2>
+          </div>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

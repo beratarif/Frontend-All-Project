@@ -1,0 +1,7 @@
+<svg class="arrow arrow-left" viewBox="0 0 24 24" width="32" height="32">
+  <path d="M14 7l-5 5 5 5" fill="none" stroke="currentColor" stroke-width="2"/>
+</svg>
+
+<svg class="arrow arrow-right" viewBox="0 0 24 24" width="32" height="32">
+  <path d="M10 7l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2"/>
+</svg>

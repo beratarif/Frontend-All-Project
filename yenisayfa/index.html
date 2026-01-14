@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="sidebar" id="sidebar">
+      <div class="top-menu">
+        <div class="logo">
+          <a href="#"><img src="OpenAI-white-monoblossom.svg" /></a>
+        </div>
+        <div class="toggle-btn" id="toggleBtn">☰</div>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="#"><i class="fas fa-pen-to-square"></i> Yeni sohbet</a>
+          </li>
+          <li><a href="#"><i class="fas fa-search"></i> Sohbetleri ara</a></li>
+          <li><a href="#"><i class="fas fa-image"></i> Görseller</a></li>
+          <li><a href=""><i class="fas fa-mobile"></i> Uygulamalar</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="content_bar">
+      <div class="container">
+        <h1>Seni görmek güzel Berat A..</h1>
+        <!--Eğer kullanıcı adı uzunsa .. diye devam etsin-->
+        <div class="input">
+          <input type="text" placeholder="Her hangi bir şey sor." />
+        </div>
+      </div>
+    </div>
+    <script>
+      const toggleBtn = document.getElementById("toggleBtn");
+      const sidebar = document.getElementById("sidebar");
+
+      toggleBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("closed");
+      });
+    </script>
+  </body>
+</html>
