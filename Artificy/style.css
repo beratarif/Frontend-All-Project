@@ -99,22 +99,18 @@ body {
   text-transform: uppercase;
 }
 
-.card-container {
-  position: absolute;
-  min-height: 600px;
-}
-
 .cards {
   background-color: #e4e4e4;
   max-width: 281px;
   min-height: 480px;
+  position: absolute;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 1);
 }
 
 .cards:nth-child(1) {
   transform: rotate(14deg);
   left: 28%;
-  top: ;
+ top: 20%;
 }
 
 .cards:nth-child(2) {
