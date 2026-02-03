@@ -254,68 +254,77 @@ body {
 .skill-tag {
   display: inline-block;
   background-color: white;
-  color: #000;
+  color: #BE5CFF;
   padding: 12px 24px;
   border-radius: 30px;
   font-size: 16px;
   font-weight: 500;
   position: absolute;
   white-space: nowrap;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
 }
 
+/* Motion Graphic */
 .skill-tag:nth-child(1) {
-  bottom: 20%;
-  left: 5%;
-  transform: rotate(-8deg);
+  bottom: -10%;
+  left: 66%;
+  transform: rotate(-28deg);
 }
 
+/* Visual Effect */
 .skill-tag:nth-child(2) {
-  bottom: 15%;
-  left: 25%;
-  transform: rotate(5deg);
+  top: 104%;
+  left: 72%;
+  transform: rotate(4deg);
 }
 
+/* Storyboard */
 .skill-tag:nth-child(3) {
-  bottom: 35%;
-  left: 10%;
-  transform: rotate(-12deg);
-}
-
-.skill-tag:nth-child(4) {
-  bottom: 10%;
-  left: 45%;
-  transform: rotate(8deg);
-}
-
-.skill-tag:nth-child(5) {
-  bottom: 30%;
-  right: 30%;
+  bottom: 0%;
+  left: 77.7%;
   transform: rotate(-5deg);
 }
 
+/* Graphic Design */
+.skill-tag:nth-child(4) {
+  bottom: -17%;
+  left: 80.9%;
+  transform: rotate(3deg);
+}
+
+/* UI / UX */
+.skill-tag:nth-child(5) {
+  bottom: 1%;
+  right: 8%;
+  transform: rotate(9deg);
+}
+
+/* Web Design */
 .skill-tag:nth-child(6) {
-  top: 25%;
-  left: 35%;
+  top: 67%;
+  left: 87%;
   transform: rotate(10deg);
 }
 
+/* 3D Modeling */
 .skill-tag:nth-child(7) {
-  bottom: 25%;
-  right: 20%;
-  transform: rotate(-10deg);
+  bottom: 0%;
+  right: -1%;
+  transform: rotate(0deg);
 }
 
+/* Digital Manipulation */
 .skill-tag:nth-child(8) {
-  bottom: 5%;
-  right: 10%;
-  transform: rotate(6deg);
+  bottom: -18%;
+  right: -3%;
+  transform: rotate(-7deg);
 }
 
+/* Photography & Videography */
 .skill-tag:nth-child(9) {
-  top: 15%;
-  right: 5%;
-  transform: rotate(-15deg);
+  top: 62%;
+  right: -5.4%;
+  transform: rotate(22deg);
 }
 
 .resim {
@@ -638,7 +647,7 @@ body {
 /* Stack Cards Container */
 .stack-cards-container {
   position: relative;
-  height: 850px;
+  min-height: 1200px;
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
@@ -948,4 +957,99 @@ body {
   .project-card:nth-child(3) .project-content.second {
     display: block;
   }
+}
+
+.inspired-by-everyday {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+
+.history-section {
+  margin-top: 200px;
+  /* % yerine daha kontrollü bir boşluk */
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.history-title {
+  color: white;
+  font-size: 64px;
+  font-weight: 500;
+  max-width: 59%;
+}
+
+.history-boxes {
+  display: flex;
+  justify-content: center;
+  border-radius: 60px;
+  background-color: #BE5CFF;
+  position: relative;
+  padding: 60px 80px;
+}
+
+.history-box {
+  border-radius: 40px;
+  min-height: 260px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.history-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.history-description {
+  color: white;
+  max-width: 28%;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: bold;
+  margin-top: 86px;
+}
+
+/* Çizgi grubu ve çizgiler */
+.line-group {
+  position: relative;
+  margin-top: 40px;
+  height: 140px;
+}
+
+.line1 {
+  position: absolute;
+  left: 50%;
+  border: none;
+  transform: rotate(90deg);
+  border-radius: 12px;
+  top: -60%;
+  width: 280px;
+  background-color: #BE5CFF;
+  height: 2px;
+}
+
+.line2 {
+  position: absolute;
+  left: 50%;
+  transform: rotate(90deg);
+  width: 280px;
+  border: none;
+  border-radius: 999px;
+  height: 2px;
+  background-color: #BE5CFF;
+  top: -202%;
 }
