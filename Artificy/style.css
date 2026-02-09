@@ -546,11 +546,6 @@ body {
   align-items: end;
 }
 
-.project-content.second .project-image-wrapper {
-  /* width: 535px; */
-  /* height: 290px; */
-}
-
 .project-card:nth-child(2) .project-content,
 .project-card:nth-child(3) .project-content,
 .project-card:nth-child(2) .project-content.second,
